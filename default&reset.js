@@ -1,4 +1,4 @@
-Default parameter
+// Default parameter
 
 const getIntrest = (amount,time,rate=0.1)=>{
     const result = ( amount * time * rate) 
@@ -7,7 +7,7 @@ const getIntrest = (amount,time,rate=0.1)=>{
 
 console.log(getIntrest(10000,2,0.1))
 
-Rest operator
+// Rest operator
 
 const getSum = ( num1,num2,...nums)=>{ 
 console.log(nums)
@@ -17,7 +17,7 @@ const numsSum = nums.reduce((acc,curr)=>acc+curr)
 console.log(getSum(20,45,45,8,5,5,9,8,9,5,));
 
 
-Constructer function
+// Constructer function
 
 function GetCircleArea(radius){
     this.radius = radius;
